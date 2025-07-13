@@ -1,0 +1,29 @@
+# Ignore Python virtual environment
+backend/myenv/
+
+# Ignore __pycache__ and compiled files
+**/__pycache__/
+**/*.pyc
+
+# Node modules (if you have frontend built with npm/yarn)
+frontend/node_modules/
+
+# Log files
+*.log
+
+# Environment variables
+*.env
+.env.*
+frontend/.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+
+# IDE/editor settings
+.vscode/
+.idea/
